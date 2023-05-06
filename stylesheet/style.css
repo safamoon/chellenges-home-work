@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#chellenges_back{
+    width: 1000px;
+    height:700px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(247, 228, 228);
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+    width:900px;
+    height: 570px;
+    margin: auto;
+    background-color: rgb(11, 1, 34); 
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+}
+.clock{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(106, 91, 193);
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-right: 20px;
+    margin-top: 50px;
+
+
+}
+.clock h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+
+}
+.clock p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.clock img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 4px solid white;
+    margin:10px;
+}
+.card-first{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(21, 9, 97);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+    padding: 40px;
+    margin-right: 20px;
+}
+.card-first p{
+    margin-left: 20px;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+.blog-card{
+    width: 180px;
+    height: 70px;
+    background-color: rgba(194, 209, 56, 0.756);
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 20px;
+
+    
+
+}
+.blog-card span{
+    margin-left: 150px;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+.card{
+    width: 180px;
+    height: 70px;
+    background-color: rgb(120, 198, 234);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 20px;
+
+}
+.card span{
+    margin-left: 150px;
+    color: rgba(47, 107, 105, 0.495);
+    font-size: 20px;
+}
+.child{
+    width: 180px;
+    height: 150px;
+    background-color: rgb(18, 11, 101);
+    border-radius: 10px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+.child p{
+    margin-left: 20px;
+    color: white;
+}
+.child h1{
+    margin-left: 20px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.child h6{
+    margin-left: 20px;
+    color: white;
+    margin: 20px;
+}
+.child h6 span{
+    margin-left: 60px;
+    color: white;
+    
+}
+
+
+
+
+   
+
+
